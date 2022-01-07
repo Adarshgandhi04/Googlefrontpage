@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.primary-color{
+    color: #447DEC;
+}
+.danger-color{
+    color: #D52F38;
+}
+.warning-color{
+    color: #EEBD00;
+}
+.success-color{
+    color: #35B64F;
+}
+
+.main-div{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background.jpg");
+    
+   
+
+}
+
+.center-div{
+    
+    height: 50%;
+    width: 40%;
+
+
+}
+
+.logo{
+   
+    height: 35%;
+}
+.logo h1{ color: black;
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input-box{
+    margin: 0 auto;
+    height: 12.5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+input{
+    border: none;
+    width: 90%;
+    height: 70%;
+    padding: 4px 14px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.suggestion{
+    height: 50%;
+    width: 75%;
+    margin: 1.5rem auto;
+}
+
+.suggestion1{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.s1-box{
+    height: 90%;
+    width: 90px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.s1-box:hover{
+    transform: scale(1.1);
+}
+
+.suggestion2{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.s2-box{
+    height: 90%;
+    width: 90px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.s2-box:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:1200px){
+    .center-div{
+        width: 50%;
+    }
+    .suggestion{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:730px){
+    .center-div{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:525px){
+    .center-div{
+        width: 100%;
+    }
+}
